@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/game_events.rpy", line 23: expected 'label_name' not found.
+    call
+        ^
+
+File "game/game_events.rpy", line 37: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    $ renpy.pause(hard=True)
+    ^
+
+Ren'Py Version: Ren'Py 7.4.6.1693
+Fri Jun 25 01:33:14 2021

@@ -312,6 +312,8 @@ screen navigation():
         textbutton _("Load") action ShowMenu("load")
 
         textbutton _("Preferences") action ShowMenu("preferences")
+        if main_menu:
+            textbutton _("Album") action ShowMenu("galleryA")
 
         if _in_replay:
 
